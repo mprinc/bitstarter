@@ -7,7 +7,7 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
   var templateFile = "index.html";
-  var templateRaw = fs.readFileSync(templateFile, {flag:'r', encoding:'utf-8'});
+  var templateRaw = fs.readFileSync(templateFile, {flag:'r', encoding:'utf8'});
   response.send(templateRaw);
 });
 
