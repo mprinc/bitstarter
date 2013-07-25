@@ -1,0 +1,101 @@
+/* Large desktop */
+@media (min-width: 980px) { 
+    body {
+        padding-top: 60px;
+    }
+    .linediv-l {
+        border-right: 1px white solid;
+    }
+    .linediv-r {
+        border-left: 1px white solid;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .copy {
+        padding: 2.5% 10%;
+    }
+    .linediv-l {
+        border-bottom: 1px white solid;
+    }
+    .linediv-r {
+        border-top: 1px white solid;
+    }
+}
+
+/* Main body and headings */
+body{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.container {
+}
+p.lead {
+    padding-top: 15px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.navigation, .pitch, .section1, .section2, .faq, .footer {
+    padding: 10px 0px 10px 0px;
+}
+  
+.order{
+    padding: 2% 0%;
+}
+.actions {
+    background-color: #343434;
+    padding: 3% 0%;
+    color: #CCCCCC;
+}
+
+.video, .thermometer, .order, .social {
+    text-align: center;
+}
+.thermometer{
+    height: 20px;
+}
+.video {
+/* Internal borders have 1px width, thus need to add 4 x 1px to 120px. */
+    height: 319px;
+    line-height: 124px;
+}
+.order, .social {
+    /* line-height to vertically center: http://phrogz.net/css/vertical-align/index.html */
+    line-height: 40px;
+}
+
+.asset {
+    padding: 2.5% 0%;
+}
+  
+.logo{
+    color: #f88;
+    font-weight: bold;
+    font-size: 15px;
+}
+.about{
+    color: #f88;
+    font-weight: bold;
+    font-size: 15px;
+}
+.heading{
+    color: #f88;
+}
+.heading, .subheading{
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.copy{
+    text-align: justify;
+}
+
+.copy-right{
+    text-align: justify;
+}
+
+.footer {
+    color: #cccccc;
+    text-align: center;
+}
